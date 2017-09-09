@@ -1,17 +1,1 @@
-defaultTasks 'hello', 'hello1', 'hello2', 'hello3'
-
-task hello << {
-    println 'Hello world! 0'
-}
-
-task hello1 << {
-    println 'Hello world! 1'
-}
-
-task hello2 << {
-    println 'Hello world 2!'
-}
-
-task hello3 << {
-    println 'Hello world 3!'
-}
+apply plugin: 'java'
